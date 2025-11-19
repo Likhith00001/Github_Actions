@@ -1,0 +1,11 @@
+name : first actions
+
+on: [push]
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print message
+        run: echo "first actions runned sucssefully"
